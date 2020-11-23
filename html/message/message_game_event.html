@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--RWD-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  
+
+    <title>Ready</title>
+</head>
+
+<body>
+    <header>
+
+        <ul>
+            <li class="back"> <a href="../../index.html"></a></li>
+            <li class="title">消息中心</li>
+            <li class="pure_text">編輯</li>
+        </ul>
+    </header>
+    <section  class="message_type">
+        <ul>
+            <li>通知<span class="yet_ready">14</span><a href="../message/message_message.html"></a></li>
+            <li>活動<span class="yet_ready">10</span><a href="../message/message_event.html"></a></li>
+            <li>公告 <a href="../message/message_board.html"></a></li>
+            <li class="active">賽事公告<a href="../message/message_game_event.html"></a></li>
+        </ul>
+    </section>
+    <!--等待畫面_請指定子物件-->
+    <section class="waitting">
+        <div class="watting_icon"  style="display: none;"></div>
+    </section>
+    <section class="game_message_type">
+        <div class="warp">
+            <div class="i1 active">AB體育</div>
+            <div class="i2">CD體育</div>
+        </div>
+        
+    </section>
+    <section class="game_message_content" >
+        <ul>
+            <li>
+                <div class="top_warp">
+                    <h1>網球賽事</h1>
+                    <p>2月05日.02:06:00</p>
+                </div>
+                <p class="content">內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容</p>
+            </li>
+            <li>
+                <div class="top_warp">
+                    <h1>網球賽事</h1>
+                    <p>2月05日.02:06:00</p>
+                </div>
+                <p class="content">內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容</p>
+            </li>
+            <li>
+                <div class="top_warp">
+                    <h1>網球賽事</h1>
+                    <p>2月05日.02:06:00</p>
+                </div>
+                <p class="content">內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容</p>
+            </li>
+            <li>
+                <div class="top_warp">
+                    <h1>網球賽事</h1>
+                    <p>2月05日.02:06:00</p>
+                </div>
+                <p class="content">內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容</p>
+            </li>
+            <li>
+                <div class="top_warp">
+                    <h1>網球賽事</h1>
+                    <p>2月05日.02:06:00</p>
+                </div>
+                <p class="content">內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容</p>
+            </li>
+            <li>
+                <div class="top_warp">
+                    <h1>網球賽事</h1>
+                    <p>2月05日.02:06:00</p>
+                </div>
+                <p class="content">內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容</p>
+            </li>
+            <li>
+                <div class="top_warp">
+                    <h1>網球賽事</h1>
+                    <p>2月05日.02:06:00</p>
+                </div>
+                <p class="content">內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容</p>
+            </li>
+            <li>
+                <div class="top_warp">
+                    <h1>網球賽事</h1>
+                    <p>2月05日.02:06:00</p>
+                </div>
+                <p class="content">內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容</p>
+            </li>
+            <li>
+                <div class="top_warp">
+                    <h1>網球賽事</h1>
+                    <p>2月05日.02:06:00</p>
+                </div>
+                <p class="content">內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容</p>
+            </li>
+            <li>
+                <div class="top_warp">
+                    <h1>網球賽事</h1>
+                    <p>2月05日.02:06:00</p>
+                </div>
+                <p class="content">內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容賽事內容</p>
+            </li>
+
+        </ul>
+    </section>
+    <!--網路中斷頁面_須關閉主頁面.game_message_content-->
+    <section class="game_message_empty" style="display: none;">
+        <div class="empty_icon"></div>
+        <p>網路中斷</p>
+        <p>請刷新頁面試試看</p>
+        <button>刷新頁面</button>
+    </section>
+
+    <script>
+        $(document).ready(
+            function(){
+                console.log('message_event');
+                let sw_btn = $('.game_message_type .warp div');
+                sw_btn.click(function(){
+                    
+                    if($(this).hasClass('active') == true){
+                                $(this).siblings().addClass('active');
+                        return  $(this).removeClass('active');
+                    }else{
+                                $(this).siblings().removeClass('active');
+                        return  $(this).addClass('active');
+                    }
+                })
+                
+            });
+    </script>
+</body>
+
+</html>

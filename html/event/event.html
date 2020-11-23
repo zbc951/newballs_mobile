@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--RWD-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--main.css-->
+    <link rel="stylesheet" href="../../css/main.css"/>
+
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>Ready</title>
+  </head>
+
+  <body>
+     <header>
+      <ul class="market">
+          <li class="back"> <a href="javascript:history.back()"></a></li>
+          <li class="title">優惠活動</li>
+      </ul>
+  </header>
+    <aside class="event">
+      <div class="event_content">
+        <div class="card_wrap">
+          <div class="card">
+            <img src="../../images/event/banner_1.png" alt="">
+            <div class="new">最新</div>
+            <div class="time_wrap">
+              <div class="icon"></div>
+              <p>2020-02-01 至 2020-02-10</p>
+            </div>
+            <div class="detail_wrap">
+              <p>了解詳情</p>
+              <div class="icon"></div>
+            </div>
+           
+          </div>
+          <div class="card_inner">
+            <h1>邀請好友 互領禮金</h1>
+            <div class="subtitle_wrap">
+              <p>活動對象: 全體會員</p>
+              <p>活動時間: 2020.01.19-2025.01.01 (北京時間)</p>
+            </div>
+            <h2>福利說明</h2>
+            <ul class="detail_wrap">
+              <li>
+                說明說明說明說明說明說明說明說明說明說明說明說明說明 說明說明說明說明說明說明說明。
+              </li>
+              <li>
+                說明說明說明說明說明說明說明說明說明說明說明說明說明 說明說明說明說明說明說明說明。
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card_wrap">
+          <div class="card">
+            <img src="../../images/event/banner_2.png" alt="">
+            <div class="new">最新</div>
+            <div class="time_wrap">
+              <div class="icon"></div>
+              <p>2020-02-01 至 2020-02-10</p>
+            </div>
+            <div class="detail_wrap">
+              <p>了解詳情</p>
+              <div class="icon"></div>
+            </div>
+           
+          </div>
+          <div class="card_inner">
+            <h1>邀請好友 互領禮金</h1>
+            <div class="subtitle_wrap">
+              <p>活動對象: 全體會員</p>
+              <p>活動時間: 2020.01.19-2025.01.01 (北京時間)</p>
+            </div>
+            <h2>福利說明</h2>
+            <ul class="detail_wrap">
+              <li>
+                說明說明說明說明說明說明說明說明說明說明說明說明說明 說明說明說明說明說明說明說明。
+              </li>
+              <li>
+                說明說明說明說明說明說明說明說明說明說明說明說明說明 說明說明說明說明說明說明說明。
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card_wrap">
+          <div class="card">
+            <img src="../../images/event/banner_3.png" alt="">
+            <div class="new">最新</div>
+            <div class="time_wrap">
+              <div class="icon"></div>
+              <p>2020-02-01 至 2020-02-10</p>
+            </div>
+            <div class="detail_wrap">
+              <p>了解詳情</p>
+              <div class="icon"></div>
+            </div>
+           
+          </div>
+          <div class="card_inner">
+            <h1>邀請好友 互領禮金</h1>
+            <div class="subtitle_wrap">
+              <p>活動對象: 全體會員</p>
+              <p>活動時間: 2020.01.19-2025.01.01 (北京時間)</p>
+            </div>
+            <h2>福利說明</h2>
+            <ul class="detail_wrap">
+              <li>
+                說明說明說明說明說明說明說明說明說明說明說明說明說明 說明說明說明說明說明說明說明。
+              </li>
+              <li>
+                說明說明說明說明說明說明說明說明說明說明說明說明說明 說明說明說明說明說明說明說明。
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </aside>
+
+    <footer>
+      <ul>
+          <li class="index "><span></span>
+              <p>首頁</p>
+              <a href="../../index.html"></a>
+          </li>
+          <li class="donate"><span></span>
+              <p>賽事結果</p>
+              <a href="../my/my_game_result/my_game_result.html"></a>
+          </li>
+          <li class="help"><span></span>
+              <p>客服</p>
+              <a href="../help/help.html"></a>
+          </li>
+          
+          <li class="event active"><span></span>
+              <p>投注紀錄</p>
+              <a href="../my/bet_record/my_bet_record_fast.html"></a>
+          </li>
+          <li class="my have"><span></span>
+              <p>我的</p>
+              <a href="../my/my.html"></a>
+          </li>
+      </ul>
+    </footer>
+    <!--觸發活動詳細-->
+   <script>
+$(document).ready(function(){
+  console.log('event ready no.js');
+  $('.detail_wrap').click(function(){
+    
+    if( $(this).parent().parent().hasClass('active') != true){
+      return $(this).parent().parent().addClass('active');
+    }else{
+      return $(this).parent().parent().removeClass('active');
+    }
+  })
+})
+   </script>
+  </body>
+</html>

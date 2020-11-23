@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--RWD-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  
+
+    <title>Ready</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li class="back"><a href="javascript:history.back()"></a></li>
+            <li class="title">轉點</li>
+            <li class="right_text question_icon"></li>
+        </ul>
+       </header>
+    <aside class="my_windows_mb_transfer">
+        <div class="content">
+            <div class="title">
+                <p class="money_total">刷新金額<span></span></p>
+                <p class="recycle">一鍵回收</p>
+            </div>
+            <div class="money_type">
+                <span class="center">
+                    <p class="title"><span></span>中心錢包</p>
+                    <p class="balance">0.00</p>
+                </span>
+                <span class="lock">
+                    <p class="title"><span></span>鎖定錢包</p>
+                    <p class="balance">0.00</p>
+                </span>
+            </div>
+            <div class="groups active">
+                <div class="line">
+                    <span>
+                        <p>亞博體育</p>
+                        <p>0.00</p>
+                    </span>
+                    <span>
+                        <p>IM體育</p>
+                        <p>0.00</p>
+                    </span>
+                    <span>
+                        <p>AG真人</p>
+                        <p>0.00</p>
+                    </span>
+                    <span>
+                        <p>IM電競</p>
+                        <p>0.00</p>
+                    </span>
+                </div>
+                <div class="hidden">
+                    <div class="line">
+                        <span>
+                            <p>泛亞電競</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>EBET真人</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>OG真人</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>GD真人</p>
+                            <p>0.00</p>
+                        </span>
+                    </div>
+                    <div class="line">
+                        <span class="active">
+                            <p>BBIN真人<em></em></p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>雙贏彩票</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>KG彩票</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>BBIN彩票</p>
+                            <p>0.00</p>
+                        </span>
+                    </div>
+                    <div class="line">
+                        <span>
+                            <p>TCG彩票</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p class="active">GF錢包</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>PT電子</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>MG電子</p>
+                            <p>0.00</p>
+                        </span>
+                    </div>
+                    <div class="line">
+                        <span>
+                            <p>PP電子</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>DT電子</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>高登棋牌</p>
+                            <p>0.00</p>
+                        </span>
+                        <span>
+                            <p>雙贏棋牌</p>
+                            <p>0.00</p>
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="line last">
+                    <span>
+                        <p>收起</p>
+                        <p></p>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+        <div class="transfer_area">
+            <div class="auto">
+                <p class="title_auto">自動轉點</p>
+                <div class="box_empty">
+                    <div class="check"><span class="switch"></span></div>
+                </div>
+            </div>
+     
+                <div class="auto box">
+                    <p>轉出</p>
+                    <div class="drow_box">中心錢包</div>
+                </div>
+                <div class="auto box">
+                    <p>轉入</p>
+                    <div class="drow_box">XXXX體育</div>
+                </div>
+                <div class="input_area">
+                    <input type="text" placeholder="請輸入金額">
+                    <p>點</p>
+                </div>
+                
+         
+        </div>
+        <button>確認轉點</button>
+    </aside>
+    <aside class="jump_window my_windows_mb_transfer_doing">
+        <div class="windows">
+            <div class="close"></div>
+            <div class="top_warp">
+                <h1 class="title">錢包轉點</h1>
+                <p>*請選擇點數轉出以及轉入處，並輸入金額</p>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <p>轉出</p>
+                    <div class="drow_box">中心錢包</div>
+                </div>
+                <div class="box">
+                    <p>轉入</p>
+                    <div class="drow_box">XXXX體育</div>
+                </div>
+                <div class="input_area">
+                    <input type="text" placeholder="請輸入金額">
+                    <p>點</p>
+                </div>
+                <button>確認轉點</button>
+            </div>
+        </div>
+    </aside>
+    <aside class="jump_window my_windwos_transfer_success">
+        <div class="windows">
+            <div class="top_warp">
+                <h1 class="title">轉點成功</h1>
+            </div>
+            <div class="content">
+                
+            <p>已經成功從
+                <p class="blue">中心錢包</p>
+                轉入<p class="blue">XXXX體育</p>
+            </br>
+                共計<p class="red">1,000</p>點
+            </p>
+                
+            </div>
+            <div class="button_area">
+                <button>關閉</button>
+                <button>再次轉點</button>
+            </div>
+        </div>
+    </aside>
+    <aside class="jump_window my_windwos_transfer_fail">
+        <div class="windows">
+            <div class="top_warp">
+                <h1 class="title">轉點失敗</h1>
+            </div>
+            <div class="content">
+                <div class="fail_title">
+                    <div class="fail_icon"></div>
+                    <p>轉點失敗，餘額不足</p>
+                </div>
+            </div>
+            <div class="button_area">
+                <button>關閉</button>
+                <button>再次轉點</button>
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <ul>
+            <li class="index "><span></span>
+                <p>首頁</p>
+                <a href="../.././index.html"></a>
+            </li>
+            <li class="donate"><span></span>
+                <p>賽事結果</p>
+                <a href=".././my/my_game_result/my_game_result.html"></a>
+            </li>
+            <li class="help"><span></span>
+                <p>客服</p>
+                <a href=".././help/help.html"></a>
+            </li>
+            
+            <li class="event"><span></span>
+                <p>投注紀錄</p>
+                <a href=".././my/bet_record/my_bet_record_fast.html"></a>
+            </li>
+            <li class="my have active"><span></span>
+                <p>我的</p>
+                <a href=".././my/my.html"></a>
+            </li>
+        </ul>
+      </footer>
+    <script type="text/javascript" src="../../js/my_windows_transfer.js"></script>
+  
+</body>
+
+</html>

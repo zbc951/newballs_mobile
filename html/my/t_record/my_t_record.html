@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--RWD-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--main.css-->
+      <link rel="stylesheet" href="../../../css/main.css">
+
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+   
+
+    <title>Ready</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li class="back"><a href="javascript:history.back()"></a></li>
+            <li class="title">交易紀錄</li>
+        </ul>
+    </header>
+
+    <aside class="my_windows_t_record">
+      
+        <div class="title">
+            <div class="save wrap active">
+                <p>存款</p>
+            </div>
+            <div class="get wrap">
+                <p>取款</p>
+            </div>
+            <div class="transfer wrap">
+                <p>轉點</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="save_page" style="display: block;">
+                <ul class="t_record">
+                    <li class="title">
+                        <p>2020-02-17 11:26:03</p>
+                        <p>交易完成</p>
+                    </li>
+                    <li>
+                        <div class="wrap blue">
+                            <p>充值</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p>網銀轉帳</p>
+                        </div>
+                        <div class="wrap right blue">
+                            <p>NT$50,000.00</p>
+                        </div>
+                    </li>
+                    <li class="line">
+                        <div class="wrap">
+                            <p>備註</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p></p>
+                        </div>
+                    </li>
+                    <li class="line footer">
+                        <div class="wrap">
+                            <p>交易編號</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p>8765</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="t_record yet">
+                    <li class="title">
+                        <p>2020-02-17 11:26:03</p>
+                        <p>交易未完成</p>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <p>充值</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p>網銀轉帳</p>
+                        </div>
+                        <div class="wrap right">
+                            <p>NT$50,000.00</p>
+                        </div>
+                    </li>
+                    <li class="line">
+                        <div class="wrap">
+                            <p>備註</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p></p>
+                        </div>
+                    </li>
+                    <li class="line footer">
+                        <div class="wrap">
+                            <p>交易編號</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p>8765</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="get_page" style="display: none;">
+                <ul class="t_record">
+                    <li class="title">
+                        <p>2020-02-17 11:26:03</p>
+                        <p>取款完成</p>
+                    </li>
+                    <li>
+                        <div class="wrap blue">
+                            <p>取款</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p>銀行轉帳</p>
+                        </div>
+                        <div class="wrap right blue">
+                            <p>NT$50,000.00</p>
+                        </div>
+                    </li>
+                    <li class="line">
+                        <div class="wrap">
+                            <p>備註</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p></p>
+                        </div>
+                    </li>
+                    <li class="line footer">
+                        <div class="wrap">
+                            <p>交易編號</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p>8765</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="t_record yet">
+                    <li class="title">
+                        <p>2020-02-17 11:26:03</p>
+                        <p>取款未完成</p>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <p>取款</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p>銀行轉帳</p>
+                        </div>
+                        <div class="wrap right">
+                            <p>NT$50,000.00</p>
+                        </div>
+                    </li>
+                    <li class="line">
+                        <div class="wrap">
+                            <p>備註</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p></p>
+                        </div>
+                    </li>
+                    <li class="line footer">
+                        <div class="wrap">
+                            <p>交易編號</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p>8765</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="transfer_page" style="display: none;">
+                <ul class="t_record">
+                    <li class="title">
+                        <p>2020-02-17 11:26:03</p>
+                        <p>轉點完成</p>
+                    </li>
+                    <li>
+                        <div class="wrap blue">
+                            <p>轉點</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p>中心錢包  轉 oo體育</p>
+                        </div>
+                        <div class="wrap right blue">
+                            <p>NT$50,000.00</p>
+                        </div>
+                    </li>
+                    <li class="line">
+                        <div class="wrap">
+                            <p>備註</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p></p>
+                        </div>
+                    </li>
+                    <li class="line footer">
+                        <div class="wrap">
+                            <p>交易編號</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p>8765</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="t_record yet">
+                    <li class="title">
+                        <p>2020-02-17 11:26:03</p>
+                        <p>轉點未完成</p>
+                    </li>
+                    <li>
+                        <div class="wrap">
+                            <p>轉點</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p>中心錢包  轉 oo體育</p>
+                        </div>
+                        <div class="wrap right">
+                            <p>NT$50,000.00</p>
+                        </div>
+                    </li>
+                    <li class="line">
+                        <div class="wrap">
+                            <p>備註</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p></p>
+                        </div>
+                    </li>
+                    <li class="line footer">
+                        <div class="wrap">
+                            <p>交易編號</p>
+                        </div>
+                        <div class="wrap no_limit">
+                            <p></p>
+                        </div>
+                        <div class="wrap right">
+                            <p>8765</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="empty_page" style="display: none;">
+                <div class="empty_icon"></div>
+                <p>還沒有任何交易紀錄</p>
+                <button>立即下注</button>
+            </div>
+        </div>
+       
+    </aside>
+    <footer>
+        <ul>
+            <li class="index "><span></span>
+                <p>首頁</p>
+                <a href="../../../index.html"></a>
+            </li>
+            <li class="donate"><span></span>
+                <p>賽事結果</p>
+                <a href="../../my/my_game_result/my_game_result.html"></a>
+            </li>
+            <li class="help"><span></span>
+                <p>客服</p>
+                <a href="../../help/help.html"></a>
+            </li>
+            
+            <li class="event"><span></span>
+                <p>投注紀錄</p>
+                <a href="../../my/bet_record/my_bet_record_fast.html"></a>
+            </li>
+            <li class="my have active"><span></span>
+                <p>我的</p>
+                <a href="../../my/my.html"></a>
+            </li>
+        </ul>
+      </footer>
+
+  
+    <script type="text/javascript" src="../../../js/my/my_bet_record.js"></script>
+
+</body>
+
+</html>

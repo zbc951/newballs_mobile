@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--RWD-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--main.css-->
+      <link rel="stylesheet" href="../../../css/main.css">
+
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+   
+
+    <title>Ready</title>
+</head>
+
+<body>
+    <header>
+        <ul class="market">
+            <li class="back"> <a href="../../my/my.html"></a></li>
+            <li class="title">投注紀錄</li>
+            <!-- <li class="search"> </li>
+            <li class="wallet"><div class="balance"><p>可投注餘額</p><p>NT$0.00</p></div></li> -->
+
+        </ul>
+    </header>
+
+    <aside class="my_windows_bet_record">
+       
+        <div class="hidden_title">
+            <div class="tack ">
+                <p>即時注單(99)</p>
+                <a href="../../my/bet_record/my_bet_record_fast.html"></a>
+            </div>
+            <div class="tack active">
+                <p>歷史注單</p>
+                <a href="./my_bet_record_fast_history.html"></a>
+            </div>
+        </div>
+        <div class="content">
+            <ul class="btn_group_box_6">
+                <li><p>今日</p></li>
+                <li><p>昨日</p></li>
+                <li><p>明日</p></li>
+                <li><p>本週</p></li>
+                <li><p>上週</p></li>
+                <li><p>本月</p></li>
+            </ul>
+            <!--"fast_record" 有"active" 展開 收合-->
+            <!--預設"sample"-->
+            <!--展開"detail"-->
+            <!--"detail" li有Class排版-->
+
+
+            <!--"list"狀態的li 有".had" = 擁有 &"active" = 展開-->
+            <ul class="history_record">
+                <li class="title box_4">
+                    <div class="box"></div>
+                    <div class="box">時間</div>
+                    <div class="box">投注金額/有效下注</div>
+                    <div class="box">結果</div>
+                </li>
+                <li class="list had box_4">
+                    <div class="box"><span class="ball">3</span></div>
+                    <div class="box">2020-05-28</div>
+                    <div class="box"><span class="red">300</span>/0</div>
+                    <div class="box">0</div>
+                    <div class="page">
+                        <div class="fast_record">
+                            <div class="title">
+                                <p class="g_name">
+                                    足球-全場-大小
+                                </p>
+                                <p class="g_type">
+                                    未開獎
+                                </p>
+                                <div class="r_wrap">
+                                    <p>02/19 18:15</p>
+                                    <i></i>
+                                </div>
+                            </div>
+                            <div class="sample">
+                                <p class="blue">大</p>
+                                <p class="red">0.96</p>
+                                <div class="r_wrap">
+                                    <p>投注金額</p>
+                                    <p>10000</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul>
+                                    <li class="box_1_normal">
+                                        <p>波蘭盃 全場</p>
+                                        <p>史塔麥列克[主]<span class="red">2.5</span>   VS 波茲南萊希</p>
+                                    </li>
+                                    <li class="box_4_normal">
+                                        <p>投注時間</p>
+                                        <p>02/19 18:15</p>
+                                        <p>比賽時間</p>
+                                        <p>02/19 20:00</p>
+                                    </li>
+                                    <li class="box_4_normal">
+                                        <p>單號</p>
+                                        <p>OU109948034</p>
+                                        <p>賠率</p>
+                                        <p class="red">0.96</p>
+                                    </li>
+                                    <li class="box_4_normal">
+                                        <p>狀態</p>
+                                        <p>未開獎</p>
+                                        <p>有效下注</p>
+                                        <p>0</p>
+                                    </li>
+                                    <li class="box_2_normal">
+                                        <p>投注選項</p>
+                                        <p class="blue">大</p>
+                                    </li>
+                                    <li class="box_4_footer">
+                                        <p>投注金額</p>
+                                        <p>10000</p>
+                                        <p>可贏(參考)</p>
+                                        <p class="red">585.65</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="fast_record">
+                            <div class="title">
+                                <p class="g_name">
+                                    足球-綜合過關
+                                </p>
+                                <p class="g_type">
+                                    未開獎
+                                </p>
+                                <div class="r_wrap">
+                                    <p>02/19 18:15</p>
+                                    <i></i>
+                                </div>
+                            </div>
+                            <div class="sample">
+                                <p class="blue">3串1</p>
+                                <p class="red">0.96</p>
+                                <div class="r_wrap">
+                                    <p>投注金額</p>
+                                    <p>10000</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul>
+                                    <li class="box_1_num">
+                                        <div class="n1">1</div>
+                                        <div class="n2">
+                                            <p>大小 [捷克甲組聯賽 全場]</p>
+                                            <p>歐帕華[主]<span class="red">2平</span>  VS  卡爾維納</p>
+                                            <p> <span class="blue">大</span> @ <span class="red">0.94</span></p>
+                                        </div>
+                                    </li>
+                                    <li class="box_1_num">
+                                        <div class="n1">2</div>
+                                        <div class="n2">
+                                            <p>讓分 [捷克甲組聯賽 全場]</p>
+                                            <p>波西米亞1905[主]<span class="red">0.5</span>  VS  特普利採</p>
+                                            <p> <span class="blue">波西米亞1905</span> @ <span class="red">0.87</span></p>
+                                        </div>
+                                    </li>
+                                    <li class="box_1_num">
+                                        <div class="n1">3</div>
+                                        <div class="n2">
+                                            <p>大小 [捷克甲組聯賽 全場]</p>
+                                            <p>歐帕華[主]<span class="red">2平</span>  VS  卡爾維納</p>
+                                            <p> <span class="blue">大</span> @ <span class="red">0.94</span></p>
+                                        </div>
+                                    </li>
+                                    <li class="box_4_normal">
+                                        <p>投注時間</p>
+                                        <p>02/19 18:15</p>
+                                        <p>單號</p>
+                                        <p>OU109948034</p>
+                                    </li>
+                                    <li class="box_4_normal">
+                                        <p>投注選項</p>
+                                        <p class="blue">3串1</p>
+                                        <p>有效下注</p>
+                                        <p>0</p>
+                                    </li>
+                                    <li class="box_4_normal">
+                                        <p>狀態</p>
+                                        <p>未開獎</p>
+                                        <p>賠率</p>
+                                        <p>0.96</p>
+                                    </li>
+                                    <li class="box_4_footer">
+                                        <p>投注金額</p>
+                                        <p>10000</p>
+                                        <p>可贏(參考)</p>
+                                        <p class="red">585.65</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="fast_record">
+                            <div class="title">
+                                <p class="g_name">
+                                    足球-綜合過關
+                                </p>
+                                <p class="g_type">
+                                    未開獎
+                                </p>
+                                <div class="r_wrap">
+                                    <p>02/19 18:15</p>
+                                    <i></i>
+                                </div>
+                            </div>
+                            <div class="sample">
+                                <p class="blue">3串1</p>
+                                <p class="red">0.96</p>
+                                <div class="r_wrap">
+                                    <p>投注金額</p>
+                                    <p>10000</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul>
+                                    <li class="box_1_num">
+                                        <div class="n1">1</div>
+                                        <div class="n2">
+                                            <p>大小 [捷克甲組聯賽 全場]</p>
+                                            <p>歐帕華[主]<span class="red">2平</span>  VS  卡爾維納</p>
+                                            <p> <span class="blue">大</span> @ <span class="red">0.94</span></p>
+                                        </div>
+                                    </li>
+                                    <li class="box_1_num">
+                                        <div class="n1">2</div>
+                                        <div class="n2">
+                                            <p>讓分 [捷克甲組聯賽 全場]</p>
+                                            <p>波西米亞1905[主]<span class="red">0.5</span>  VS  特普利採</p>
+                                            <p> <span class="blue">波西米亞1905</span> @ <span class="red">0.87</span></p>
+                                        </div>
+                                    </li>
+                                    <li class="box_1_num">
+                                        <div class="n1">3</div>
+                                        <div class="n2">
+                                            <p>大小 [捷克甲組聯賽 全場]</p>
+                                            <p>歐帕華[主]<span class="red">2平</span>  VS  卡爾維納</p>
+                                            <p> <span class="blue">大</span> @ <span class="red">0.94</span></p>
+                                        </div>
+                                    </li>
+                                    <li class="box_4_normal">
+                                        <p>投注時間</p>
+                                        <p>02/19 18:15</p>
+                                        <p>單號</p>
+                                        <p>OU109948034</p>
+                                    </li>
+                                    <li class="box_4_normal">
+                                        <p>投注選項</p>
+                                        <p class="blue">3串1</p>
+                                        <p>有效下注</p>
+                                        <p>0</p>
+                                    </li>
+                                    <li class="box_4_normal">
+                                        <p>狀態</p>
+                                        <p>未開獎</p>
+                                        <p>賠率</p>
+                                        <p>0.96</p>
+                                    </li>
+                                    <li class="box_4_footer">
+                                        <p>投注金額</p>
+                                        <p>10000</p>
+                                        <p>可贏(參考)</p>
+                                        <p class="red">585.65</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list box_4">
+                    <div class="box"><span class="ball">3</span></div>
+                    <div class="box">2020-05-29</div>
+                    <div class="box"><span class="red">0</span>/0</div>
+                    <div class="box">0</div>
+                    <div class="page">
+                    </div>
+                </li>
+                <li class="list box_4">
+                    <div class="box"><span class="ball">3</span></div>
+                    <div class="box">2020-05-30</div>
+                    <div class="box"><span class="red">0</span>/0</div>
+                    <div class="box">0</div>
+                    <div class="page">
+                    </div>
+                </li>
+                <li class="list box_4">
+                    <div class="box"><span class="ball">3</span></div>
+                    <div class="box">2020-05-31</div>
+                    <div class="box"><span class="red">0</span>/0</div>
+                    <div class="box">0</div>
+                    <div class="page">
+                    </div>
+                </li>
+            </ul>
+           
+            <div class="empty_page" >
+                <div class="empty_icon"></div>
+                <p>還沒有任何投注紀錄</p>
+                <button>立即投注</button>
+            </div>
+        </div>
+    </aside>
+    <div class="footer_blue_box_2">
+        <div class="box">
+            <p>金額總計</p>
+            <p>NT$379,994</p>
+        </div>
+        <div class="box">
+            <p>預估獲利總計</p>
+            <p>NT$379,994</p>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li class="index "><span></span>
+                <p>首頁</p>
+                <a href="../../index.html"></a>
+            </li>
+            <li class="donate"><span></span>
+                <p>賽事結果</p>
+                <a href="../../my/my_game_result/my_game_result.html"></a>
+            </li>
+            <li class="help"><span></span>
+                <p>客服</p>
+                <a href="../../help/help.html"></a>
+            </li>
+            
+            <li class="event"><span></span>
+                <p>投注紀錄</p>
+                <a href="../../my/bet_record/my_bet_record_fast.html"></a>
+            </li>
+            <li class="my have active"><span></span>
+                <p>我的</p>
+                <a href="../../my/my.html"></a>
+            </li>
+        </ul>
+      </footer>
+    <script>
+    $(document).ready(function(){
+        console.log('ready')
+        $('.fast_record').click(
+            function(){
+                if($(this).hasClass('active') != true){
+                   return  $(this).addClass('active');
+                }else{
+                    return $(this).removeClass('active');
+                }
+            }
+        );
+        $('.list .box').click(
+            function(){
+                if($(this).parent().hasClass('active') != true){
+                   return  $(this).parent().addClass('active');
+                }else{
+                    return $(this).parent().removeClass('active');
+                }
+            }
+        );
+    });
+
+   
+    
+    
+    </script>
+
+
+
+  
+    <script type="text/javascript" src="../../../js/my/my_bet_record.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+body.dk {
+  background: -webkit-gradient(linear, left top, right top, from(#191d1d), to(#1d2849));
+  background: linear-gradient(to right, #191d1d 0%, #1d2849 100%);
+}
+
+body.dk header ul {
+  background: #000;
+  -webkit-box-shadow: 0 3px 5px 0 transparent;
+          box-shadow: 0 3px 5px 0 transparent;
+}
+
+body.dk header ul li.title.title.title.title {
+  color: #fff;
+}
+
+body.dk nav.kinds {
+  background: #000;
+}
+
+body.dk main.market aside section.status {
+  background: -webkit-gradient(linear, left top, right top, from(#191d1d), to(#1d2849));
+  background: linear-gradient(to right, #191d1d 0%, #1d2849 100%);
+}
+
+body.dk main.market aside section.status p {
+  color: #fff;
+}
+
+body.dk main.market aside article.option {
+  background: #000;
+  -webkit-box-shadow: inset 0px 3px 3px 0 transparent;
+          box-shadow: inset 0px 3px 3px 0 transparent;
+}
+
+body.dk main.market aside article.option div.mode {
+  background: #000;
+}
+
+body.dk main.market aside article.option div.mode span p {
+  color: #949da6;
+}
+
+body.dk main.market aside article.option div.mode span.active {
+  background: #535353;
+}
+
+body.dk main.market aside article.option div.mode span.active p {
+  color: #fff;
+}
+
+body.dk main.market aside ul {
+  background: #000;
+}
+
+body.dk main.market aside ul li.beginner span.title {
+  background: -webkit-gradient(linear, left top, right top, from(#191d1d), to(#1d2849));
+  background: linear-gradient(to right, #191d1d 0%, #1d2849 100%);
+}
+
+body.dk main.market aside ul li.beginner span.title p {
+  color: #fff;
+}
+
+body.dk main.market aside ul li.beginner section.content {
+  background: -webkit-gradient(linear, left top, right top, from(#191d1d), to(#1d2849));
+  background: linear-gradient(to right, #191d1d 0%, #1d2849 100%);
+}
+
+body.dk main.market aside ul li.beginner section.content:nth-child(odd) {
+  background: #000;
+}
+
+body.dk main.market aside ul li.beginner section.content span.counter p.mid {
+  color: #fff;
+}
+
+body.dk main.market aside ul li.beginner section.content span.counter div.country p.name {
+  color: #fff;
+}
+
+body.dk main.market aside ul li.beginner section.content span.num_group div {
+  background: #60646d;
+}
+
+body.dk main.market aside ul li.beginner section.content span.num_group div p,
+body.dk main.market aside ul li.beginner section.content span.num_group div span {
+  color: #fff;
+}
+
+body.dk main section ul.hot_area li.marquee div p {
+  color: #fff;
+}
+
+body.dk main section ul.profile li.u_data p.u_name, body.dk main section ul.profile li.u_data p.u_money {
+  color: #fff;
+}
+
+body.dk main section ul.profile li.u_data.yet_sign .wrap button {
+  color: #fff;
+}
+
+body.dk main section ul.profile li.u_option div p {
+  color: #fff;
+}
+
+body.dk main article.menu aside.btn_group button {
+  background: #292f46;
+}
+
+body.dk main article.menu aside.btn_group p {
+  color: #fff;
+}
+
+body.dk main article.menu ul.game_kinds li {
+  background: #000;
+  background: repeating-linear-gradient(-45deg, #363636 0%, #363636 25%, #363636 50%, #252525 50%, #252525 75%, #363636 75%);
+  -webkit-box-shadow: 0 0 4px 1px #636e9e;
+          box-shadow: 0 0 4px 1px #636e9e;
+}
+
+body.dk main article.menu ul.game_kinds li div.left_triagle:before {
+  background: #363636;
+}
+
+body.dk main article.menu ul.game_kinds li div.right_triagle:before {
+  background: #252525;
+}
+
+body.dk main article.menu ul.game_kinds li div.title p {
+  color: #fff;
+}
+
+body.dk footer {
+  background: #000;
+  -webkit-box-shadow: 0 -3px 5px 0 transparent;
+          box-shadow: 0 -3px 5px 0 transparent;
+}
+
+body.dk footer ul li.active p {
+  color: #fff;
+}
+
+body.dk aside.set_window ul.side_bar {
+  background: #000;
+}
+
+body.dk aside.set_window ul.side_bar li {
+  background: #212727;
+  color: #fff;
+  border-bottom: 1px solid #4b5055;
+}
+
+body.dk aside.set_window ul.side_bar li .box .check {
+  background: #191919;
+}
+
+body.dk aside.set_window ul.side_bar li .box .check span.active {
+  background: #757575;
+}
+
+body.dk aside.set_window ul.side_bar li .box .check span.active p {
+  color: #fff;
+}
+
+body.dk aside.set_window ul.side_bar li.close {
+  -webkit-box-shadow: 0px -3px 6px 0px transparent;
+          box-shadow: 0px -3px 6px 0px transparent;
+}
+/*# sourceMappingURL=dk_type.css.map */

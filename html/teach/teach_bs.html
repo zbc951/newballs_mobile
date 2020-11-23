@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--RWD-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- jquery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+    <title>Ready</title>
+</head>
+
+<header>
+    <ul>
+        <li class="back"><a href="javascript:history.back()"></a></li>
+        <li class="title">盤口教程</li>
+    </ul>
+</header>
+
+<body>
+    <aside class="teach">
+
+        <div class="nav">
+            <!-- tbi= teach_ball_icon -->
+            <!-- nbt = nav_ball_type -->
+            <div class="active"><span class="tbi_1"></span><span class="nbt">足球</span><a href="./teach.html"></a></div>
+            <div><span class="tbi_2"></span><span class="nbt">籃球</span><a href="./teach_bkb.html"></a></div>
+            <div><span class="tbi_3"></span><span class="nbt">棒球</span><a href="./teach_bsb.html"></a></div>
+        </div>
+
+        <div class="title">
+            <div>讓球<a href="./teach.html"></a></div>
+            <div class="active">大小球</div>
+        </div>
+        <div class="content">
+            <!-- 全贏/全輸 -->
+            <div class="card">
+                <h1>全贏/全輸</h1>
+                <div class="top">
+                    <div class="bl">
+                        <div class="i"></div>
+                        <div class="tb bs">
+                            <div class="lt">
+                                <p>皇家馬德里[主]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m">
+                        <div class="v">
+                            <p>vs</p>
+                        </div>
+                    </div>
+                    <div class="br">
+                        <div class="ii"></div>
+                        <div class="tb bs">
+                            <div class="rt">
+                                <p>巴塞隆納</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mini">
+                    <p>2.5大<span>0.960</span><span>|</span>2.5小<span>0.880</span></p>
+                </div>
+                <div class="c">
+                    <p>投注本金1000元</p>
+                </div>
+                <div class="res">
+                    <div class="lt">
+                        <div class="ltb">
+                            <p>投注2.5大</p>
+                            <p class="red">贏960元</p>
+                        </div>
+                    </div>
+                    <div class="ms">
+                        <div>
+                            <p>賽果</p>
+                        </div>
+                        <div>
+                            <p>1 - 2</p>
+                        </div>
+                    </div>
+                    <div class="msbg">
+                        <div>
+                            <p>賽果</p>
+                        </div>
+                        <div>
+                            <p>1 - 2</p>
+                        </div>
+                    </div>
+                    <div class="rt">
+                        <div class="rtb">
+                            <p>投注2.5小</p>
+                            <p class="gy">輸本金1000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="e">
+                    <div class="le">
+                        <p>贏1000 x (0.960)=960<br>(不含本金)</p>
+                    </div>
+                    <div class="re">
+                    </div>
+                </div>
+            </div>
+            <!-- 和局 -->
+            <div class="card">
+                <h1>和局</h1>
+                <div class="top">
+                    <div class="bl">
+                        <div class="i"></div>
+                        <div class="tb bs">
+                            <div class="lt">
+                                <p>皇家馬德里[主]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m">
+                        <div class="v">
+                            <p>vs</p>
+                        </div>
+                    </div>
+                    <div class="br">
+                        <div class="ii"></div>
+                        <div class="tb bs">
+                            <div class="rt">
+                                <p>巴塞隆納</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mini">
+                    <p>3平大<span>0.900</span><span>|</span>3平小<span>0.900</span></p>
+                </div>
+                <div class="c">
+                    <p>投注本金1000元</p>
+                </div>
+                <div class="res">
+                    <div class="lt">
+                        <div class="ltb">
+                            <p>投注3平大</p>
+                            <p class="gy">退回本金</p>
+                        </div>
+                    </div>
+                    <div class="ms">
+                        <div>
+                            <p>賽果</p>
+                        </div>
+                        <div>
+                            <p>2 - 1</p>
+                        </div>
+                    </div>
+                    <div class="msbg">
+                        <div>
+                            <p>賽果</p>
+                        </div>
+                        <div>
+                            <p>2 - 1</p>
+                        </div>
+                    </div>
+                    <div class="rt">
+                        <div class="rtb">
+                            <p>投注3平小</p>
+                            <p class="gy">退回本金</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="content teach_bs">
+            <div class="card">
+                <h1>大小球 <p>全場90分鐘(含傷停捕時)兩隊進球數的總和</p></h1>
+                <div class="vs_area">
+                    <div class="wrap">
+                        <div class="name">
+                            <p>主隊</p>
+                        </div>
+                       <span class="icon"></span>
+                    </div>
+                    <div class="vs_mid_area">
+                        <p>vs</p>
+                        <p></p>
+                    </div>
+                    <div class="wrap">
+                       <span class="icon_o"></span>
+                       <div class="name">
+                        <p>客隊</p>
+                    </div>
+                    </div>
+                </div>
+             
+                <div class="bingo_area">
+                    <div class="bingo_bot">
+                        <div class="wrap">
+                            <div class="icon active"></div>
+                            <div class="name">
+                                <p>投注大2.5</p>
+                                <p class="red">全贏</p>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="name">
+                                <p>投注小2.5</p>
+                                <p>全輸</p>
+                            </div>
+                            <div class="icon"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mid_bingo">
+                        <div class="wrap_p">
+                            <p>進球之和</p>
+                            <p class="point">3</p>
+                            <p></p>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+                <div class="bingo_area">
+                    <div class="bingo_bot">
+                        <div class="wrap">
+                            <div class="icon half"></div>
+                            <div class="name">
+                                <p>投注大2.5/3</p>
+                                <p class="red">贏一半</p>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="name">
+                                <p>投注小2.5/3</p>
+                                <p>輸一半</p>
+                            </div>
+                            <div class="icon"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mid_bingo">
+                        <div class="wrap_p">
+                            <p>進球之和</p>
+                            <p class="point">3</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="bingo_area">
+                    <div class="bingo_bot">
+                        <div class="wrap">
+                            <div class="icon"></div>
+                            <div class="name">
+                                <p>投注大3/3.5</p>
+                                <p >輸一半</p>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="name">
+                                <p>投注小3/3.5</p>
+                                <p class="red">贏一半</p>
+                            </div>
+                            <div class="icon half"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mid_bingo">
+                        <div class="wrap_p">
+                            <p>進球之和</p>
+                            <p class="point">3</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="bingo_area">
+                    <div class="bingo_bot">
+                        <div class="wrap">
+                     
+                            <div class="name">
+                                <p>投注大3/2.5</p>
+                                <p>退回本金(打和)</p>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="name">
+                                <p>投注小3/2.5</p>
+                                <p>退回本金(打和)</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="mid_bingo">
+                     <div class="wrap_p">
+                        <p>進球之和</p>
+                        <p class="point">3</p>
+                        <p></p>
+                     </div>
+                    </div>
+                    
+                </div>
+                <div class="button_wrap active">
+                    <button class="deep_blue">實戰來一注</button>
+                    <button class="white_blue">模擬先練習<a href="./teach_bs_test_1.html"></a></button>
+                </div>
+                
+            </div>
+        </div> -->
+    </aside>
+    <footer>
+        <ul>
+            <li class="index "><span></span>
+                <p>首頁</p>
+                <a href="../../index.html"></a>
+            </li>
+            <li class="donate"><span></span>
+                <p>賽事結果</p>
+                <a href="../my/my_game_result/my_game_result.html"></a>
+            </li>
+            <li class="help"><span></span>
+                <p>客服</p>
+                <a href="../help/help.html"></a>
+            </li>
+
+            <li class="event"><span></span>
+                <p>投注紀錄</p>
+                <a href="../my/bet_record/my_bet_record_fast.html"></a>
+            </li>
+            <li class="my have active"><span></span>
+                <p>我的</p>
+                <a href="../my/my.html"></a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
